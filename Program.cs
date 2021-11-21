@@ -39,7 +39,7 @@ namespace Hash_Table
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Hash Table");
-            string wordInSentence = "hello world hello world";
+            string wordInSentence = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             CountWordFrequency(wordInSentence);
             Console.ReadLine();
         }
