@@ -35,6 +35,9 @@ namespace Hash_Table
             Console.WriteLine("Displaying after add operation\n");
             hashtable.Display();
             Console.WriteLine("-----------------------------------------");
+            hashtable.Remove("avoidable");
+            hashtable.Display();
+
         }
         static void Main(string[] args)
         {
